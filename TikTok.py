@@ -13,7 +13,7 @@ def get_user_info(identifier, by_id=False):
         if identifier.startswith('@'):
             identifier = identifier[1:]
         # URL for username
-        url = f"https://www.tiktok.com/@{identifier}"
+        url = f"https://www.tiktok.com/@pyanyasha"
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
